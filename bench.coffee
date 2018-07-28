@@ -12,7 +12,7 @@ prepare = ->
   ++i
   ++n
 
-count = ->
+count = (n) ->
  c = 0
  k = 0
  while k < 1000
@@ -28,14 +28,14 @@ count = ->
   c += t
   k++
 
- console.log c
+ console.log "#{n}: #{c}"
 
 prepare()
 
 console.log 'start'
 console.time 'count'
 for j in [0...CHILDREN]
- count()
+ count j
 
 console.timeEnd 'count'
 

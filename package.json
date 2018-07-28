@@ -1,0 +1,19 @@
+{
+  "name": "node-shared-memory",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shawwn/node-shared-memory",
+  "author": "Shawn Presser <shawnpresser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.10.0"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "test:ci": "coffee bench.coffee ; coffee spawn.coffee"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.1"
+  }
+}
