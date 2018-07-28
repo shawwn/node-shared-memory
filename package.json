@@ -1,6 +1,6 @@
 {
   "name": "node-shared-memory",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/shawwn/node-shared-memory",
   "author": "Shawn Presser <shawnpresser@gmail.com>",
